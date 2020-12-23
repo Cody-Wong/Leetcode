@@ -7,7 +7,8 @@
 class MinStack {
     private int[] mainArray;
     private int[] minArray;
-    private int top = -1; //不可为0
+    //不可为0
+    private int top = -1;
     private int stackSize = 10000;
 
     /** initialize your data structure here. */
